@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: display issue details
-        run: echo ' ${{github }}'  
+        run: echo ' ${{toJSon(github.event) }}'  
