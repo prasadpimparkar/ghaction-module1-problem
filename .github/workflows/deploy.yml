@@ -12,10 +12,10 @@ jobs:
     - name: install dependencies
       run: npm ci
     - name lint code
-      run: npm  lint
+      run: npm lint
     - name test code
       run: npm test
     - name buil code
-      run: npm  build
+      run: npm build
     - name deploy code
       run: echo 'deploying code.......'
