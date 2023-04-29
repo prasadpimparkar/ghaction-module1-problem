@@ -1,7 +1,7 @@
 name: issues
 on: issues
 jobs:
-  display_issues
+  display_issues:
     runs-on: ubuntu-latest
     steps:
       - name: display issue details
