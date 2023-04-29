@@ -1,0 +1,21 @@
+name: deploy
+on: [push, workflow_dispatch]
+jobs:
+  runs-on: unbuntu-latest
+  steps:
+    - name: get the code
+      uses: actions/checkout@v3
+    - name: install node
+      uses: actions/setup-node@v3
+        with: 
+          node_version :'18'
+    - name: install dependencies
+      run: npm ci
+    - name lint code
+      run: npm run lint
+    - name test code
+      run: npm run test
+    - name buil code
+      run: npm run build
+    - name deploy code
+      run: echo 'deploying code.......'
