@@ -13,9 +13,9 @@ jobs:
       run: npm ci
     - name: lint code
       run: npm lint
-    - name test code
+    - name: test code
       run: npm test
-    - name buil code
+    - name: buil code
       run: npm build
-    - name deploy code
+    - name: deploy code
       run: echo 'deploying code.......'
