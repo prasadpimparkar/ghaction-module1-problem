@@ -6,5 +6,3 @@ jobs:
     steps:
       - name: display issue details
         run: echo ' ${{github }}'  
-      - name: display issue details
-        run:  echo ' ${{ issue }} '
