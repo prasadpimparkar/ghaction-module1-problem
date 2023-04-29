@@ -7,4 +7,4 @@ jobs:
       - name: display issue details
         run: echo ' ${{github }}'  
       - name: display issue details
-        run:  echo ' ${{ issues }} '
+        run:  echo ' ${{ issue }} '
