@@ -1,0 +1,10 @@
+name: issues
+on: issues
+jobs:
+  display_issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: display issue details
+        run: |
+        echo ' ${{github }}'
+        echo ' ${{ issues }} '
