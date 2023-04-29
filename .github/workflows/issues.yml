@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: display issue details
         run: |
-        echo ' ${{github }}'
+        echo ' ${{github }}' |
         echo ' ${{ issues }} '
